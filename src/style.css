@@ -1,0 +1,159 @@
+body{
+    background: linear-gradient(340deg, rgb(11, 18, 32) 11.2%, rgb(36, 59, 85) 91.1%);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+
+.container{
+    background: linear-gradient(340deg, rgb(2, 27, 121), rgb(33, 144, 255));
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.search-text, .search-button{
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 7px;
+}
+
+.search-text{
+    box-sizing: content-box;
+    width: 75%;
+}
+
+.search-button{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff
+}
+
+.search-button:hover{
+    background-color: #fff;
+    color: rgb(100, 100, 100);
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: all 200ms ease;
+}
+
+.location-button{
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(0deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 20px;
+    border: 0px solid rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 15px;
+}
+
+.location-button:hover{
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(180deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);
+}
+
+
+.current-city {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+}
+
+.date-time {
+    text-align: center;
+    font-weight: 200;
+    margin-top: 12px;
+}
+
+
+.current-box{
+    margin: 10px; 
+    padding: 10px;
+    text-align: center;
+}
+
+.current-temp{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.feels-like{
+    font-weight: 200;
+}
+
+.current-minmax{
+    margin: 0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.weather-mainicon{
+    max-width: 170px;
+}
+
+.current-infobox{
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.info-title{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.info-numbers{
+    line-height: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.weekly-box{
+    background: linear-gradient(240deg, rgba(255, 255, 255, 0.1), rgba(230, 230, 230, 0.3));
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.weekly-day{
+    font-size: 14px;
+    position: relative;
+    top: 9px
+}
+
+.weekly-high, .weekly-low {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.weekly-low{
+    font-weight: 200;
+    opacity: 80%;
+}
+
+.weekly-high{
+    font-weight: 700;
+}
+
+.weather-weeklyicon{
+    max-width: 40px
+}
